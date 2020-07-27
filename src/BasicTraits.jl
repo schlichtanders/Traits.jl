@@ -6,6 +6,7 @@ macro overwrite_Base()
   esc(quote
     using Traits.BasicTraits
     const isimmutable = Traits.BasicTraits.isimmutable
+    const ismutable = Traits.BasicTraits.ismutable  # julia 1.5
     const isbitstype = Traits.BasicTraits.isbitstype
     const isconcretetype = Traits.BasicTraits.isconcretetype
     nothing  # empty return

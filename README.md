@@ -1,4 +1,6 @@
-<h1> Traits.jl </h1>
+> :warning: renamed repository to [WhereTraits.jl](https://github.com/schlichtanders/WhereTraits.jl)
+
+<h1> Traits.jl (DEPCREATED in favour of [WhereTraits.jl](https://github.com/schlichtanders/WhereTraits.jl))</h1>
 
 Welcome to `Traits.jl`. This package exports one powerful macro `@traits` with which you can extend Julia's
 where syntax. Concretely the following are supported:
